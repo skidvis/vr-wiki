@@ -14,7 +14,7 @@ services:
       - db
     image: requarks/wiki:2
     environment:
-      SSL_ACTIVE: true
+      SSL_ACTIVE: 1
       LETSENCRYPT_DOMAIN: "xrgamedev.com"
       LETSENCRYPT_EMAIL: "skid@skidvis.com"
       DB_TYPE: postgres
