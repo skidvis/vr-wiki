@@ -22,6 +22,6 @@ services:
       DB_NAME: "${DB_DATABASE}"
     restart: unless-stopped
     ports:
-      - "80:3000"
+      - "3000:3000"
 volumes:
   db_vrwiki_data: 
